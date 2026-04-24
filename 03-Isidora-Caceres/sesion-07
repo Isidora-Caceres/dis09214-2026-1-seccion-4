@@ -1,0 +1,32 @@
+CLASE 24/04
+
+-variables para punto medio: 
+let medioX;
+let medioY;
+
+-cosas que hay que poner en un ciclo "for":
+ //for (inicio de los tiempos,
+      hasta cuando sigues con tus cosas,
+      refresco o actualizar
+     ) {
+     
+-se escribe i = i + 1, pero mayormente se escribe i ++
+     
+-calculo del punto medio del lienzo en x,y :
+medioX= width / 2;
+medioY= height / 2;
+  
+-dibujar lineas rectas, entre punto el punto medio:
+   for (let i = 0; i < width; i = i + 5) {   
+   // para linea: primer punto x
+   //primer punto Y
+   //segundo punto x
+   //segundo punto y
+
+- El ciclo for es una iteracion, por lo tanto se le debe decir: 
+//for ( inicializacion; mientras esto se cumpla; como se  actualiza)
+
+-line (x1,x2,y1,y2)
+//x1:primer punto de la linea es el centro del lienzo
+
+-"separacion" : variables para separacion de lineas
